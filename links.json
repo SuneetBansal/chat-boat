@@ -1,0 +1,5 @@
+{
+    "web-communicator": "/#/app/control/projector/projector_control",
+    "system-backup": "/#/app/maintenance/software/backup_restore",
+    "macro": "/#/app/configuration/projector/macros"
+}

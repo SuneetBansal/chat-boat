@@ -1,0 +1,19 @@
+name: test-flow
+on: push
+jobs:
+  job1:
+    name: first
+    runs-on: widnows-latest
+    steps:
+    - name: one
+      uses: actions/checkout@v2
+    - name: two
+      run: echo "Test---"
+  job2:
+    name: second
+    runs-on: widnows-latest
+    steps:
+    - name: one
+      uses: actions/checkout@v2
+    - name: two
+      run: echo "Test---"

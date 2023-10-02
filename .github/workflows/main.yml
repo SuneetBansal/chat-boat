@@ -3,7 +3,7 @@ on: push
 jobs:
   job1:
     name: first
-    runs-on: widnows-latest
+    runs-on: windows-latest
     steps:
     - name: one
       uses: actions/checkout@v2
